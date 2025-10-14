@@ -1,10 +1,11 @@
 import os
-import pytest
+
 import allure
+import pytest
 import requests
 from appium import webdriver
-from appium import webdriver
 from appium.options.android import UiAutomator2Options
+
 from config import load_config
 
 def _attach_bs_video(session_id: str):
