@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+.allure/
+.DS_Store
